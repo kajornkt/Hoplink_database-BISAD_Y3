@@ -57,6 +57,8 @@ CREATE TABLE Station_stop (
     stop_name_th VARCHAR2(50) NOT NULL,
     stop_name_en VARCHAR2(50) NOT NULL,
     sequence_no NUMBER(3) NOT NULL,
+    direction VARCHAR2(10) NOT NULL
+        CHECK (direction IN ('Inbound','Outbound')),
     is_fare_point VARCHAR2(3) NOT NULL
         CHECK (is_fare_point IN ('Yes','No')),
     CONSTRAINT fk_station_line FOREIGN KEY (line_id) REFERENCES Line(line_id)
