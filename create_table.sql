@@ -31,12 +31,12 @@ CREATE TABLE Passenger (
 -- Operator
 CREATE TABLE Operator (
     operator_id NUMBER(5) PRIMARY KEY,
-    operator_name VARCHAR2(5) UNIQUE NOT NULL
+    operator_name VARCHAR2(5) NOT NULL
         CHECK (operator_name IN ('BMTA','TSB','MRT','BTS','SRT', 'ARL')),
     mode VARCHAR2(10) UNIQUE NOT NULL
-        CHECK (mode_name IN ('Bus','Train'))
+        CHECK (mode_name IN ('Bus','Train')),
     contact_email VARCHAR2(30) NOT NULL,
-    contact_phone VARCHAR2(10) NOT NULL,
+    contact_phone VARCHAR2(10) NOT NULL
 );
 
 -- Line
