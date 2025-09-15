@@ -28,22 +28,15 @@ CREATE TABLE Passenger (
     CONSTRAINT fk_passenger_usertype FOREIGN KEY (user_type_id) REFERENCES User_type(user_type_id)
 );
 
--- Transport_mode
-CREATE TABLE Transport_mode (
-    mode_id NUMBER(5) PRIMARY KEY,
-    mode_name VARCHAR2(10) UNIQUE NOT NULL
-        CHECK (mode_name IN ('Bus','Train'))
-);
-
 -- Operator
 CREATE TABLE Operator (
     operator_id NUMBER(5) PRIMARY KEY,
-    mode_id NUMBER(5) NOT NULL,
     operator_name VARCHAR2(5) UNIQUE NOT NULL
         CHECK (operator_name IN ('BMTA','TSB','MRT','BTS','SRT', 'ARL')),
+    mode VARCHAR2(10) UNIQUE NOT NULL
+        CHECK (mode_name IN ('Bus','Train'))
     contact_email VARCHAR2(30) NOT NULL,
     contact_phone VARCHAR2(10) NOT NULL,
-    CONSTRAINT fk_operator_mode FOREIGN KEY (mode_id) REFERENCES Transport_mode(mode_id)
 );
 
 -- Line
