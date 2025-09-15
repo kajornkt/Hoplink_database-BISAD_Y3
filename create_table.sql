@@ -4,9 +4,9 @@ CREATE TABLE Account (
     role VARCHAR2(15) NOT NULL,
     first_name VARCHAR2(25) NOT NULL,
     last_name VARCHAR2(25) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    email VARCHAR2(30) UNIQUE NOT NULL,
-    password VARCHAR2(255) UNIQUE NOT NULL
+    created_at TIMESTAMP NOT NULL,
+    email VARCHAR2(30),
+    password VARCHAR2(45) UNIQUE NOT NULL
 );
 
 -- User_type
@@ -40,7 +40,7 @@ CREATE TABLE Operator (
     operator_id NUMBER(5) PRIMARY KEY,
     mode_id NUMBER(5) NOT NULL,
     operator_name VARCHAR2(5) UNIQUE NOT NULL
-        CHECK (operator_name IN ('BMTA','TSB','MRT','BTS','SRT')),
+        CHECK (operator_name IN ('BMTA','TSB','MRT','BTS','SRT', 'ARL')),
     contact_email VARCHAR2(30) NOT NULL,
     contact_phone VARCHAR2(10) NOT NULL,
     CONSTRAINT fk_operator_mode FOREIGN KEY (mode_id) REFERENCES Transport_mode(mode_id)
@@ -94,7 +94,7 @@ CREATE TABLE Vehicle (
     capacity NUMBER(5) NOT NULL,
     current_lat NUMBER(10,7),
     current_lon NUMBER(10,7),
-    last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_update TIMESTAMP NOT NULL,
     CONSTRAINT fk_vehicle_line FOREIGN KEY (line_id) REFERENCES Line(line_id)
 );
 
@@ -159,7 +159,7 @@ CREATE TABLE Ticket (
     passenger_id NUMBER(5) NOT NULL,
     start_stop_id VARCHAR2(10) NOT NULL,
     end_stop_id VARCHAR2(10) NOT NULL,
-    purchase_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    purchase_date TIMESTAMP NOT NULL,
     price NUMBER(6,2) NOT NULL,
     valid_until TIMESTAMP NOT NULL,
     status VARCHAR2(10) NOT NULL
@@ -176,7 +176,7 @@ CREATE TABLE Ticket_transaction (
     start_stop_id VARCHAR2(10) NOT NULL,
     end_stop_id VARCHAR2(10) NOT NULL,
     fare_charged NUMBER(6,2) NOT NULL,
-    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    transaction_date TIMESTAMP NOT NULL,
     CONSTRAINT fk_transaction_ticket FOREIGN KEY (ticket_id) REFERENCES Ticket(ticket_id),
     CONSTRAINT fk_transaction_start FOREIGN KEY (start_stop_id) REFERENCES Station_stop(stop_id),
     CONSTRAINT fk_transaction_end FOREIGN KEY (end_stop_id) REFERENCES Station_stop(stop_id)
@@ -190,7 +190,7 @@ CREATE TABLE Payment (
     amount NUMBER(6,2) NOT NULL,
     method VARCHAR2(20) NOT NULL
         CHECK (method IN ('QR PromptPay','Credit Card')),
-    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    payment_date TIMESTAMP NOT NULL,
     CONSTRAINT fk_payment_ticket FOREIGN KEY (ticket_id) REFERENCES Ticket(ticket_id),
     CONSTRAINT fk_payment_passenger FOREIGN KEY (passenger_id) REFERENCES Passenger(passenger_id)
 );
