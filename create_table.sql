@@ -1,14 +1,3 @@
--- Account
-CREATE TABLE Account (
-    account_id NUMBER(5) PRIMARY KEY,
-    role VARCHAR2(15) NOT NULL,
-    first_name VARCHAR2(25) NOT NULL,
-    last_name VARCHAR2(25) NOT NULL,
-    created_at TIMESTAMP NOT NULL,
-    email VARCHAR2(30),
-    password VARCHAR2(45) UNIQUE NOT NULL
-);
-
 -- User_type
 CREATE TABLE User_type (
     user_type_id NUMBER(2) PRIMARY KEY,
@@ -18,14 +7,18 @@ CREATE TABLE User_type (
     min_age NUMBER(2) NOT NULL
 );
 
--- Passenger
-CREATE TABLE Passenger (
-    passenger_id NUMBER(5) PRIMARY KEY,
-    account_id NUMBER(5) NOT NULL,
-    user_type_id NUMBER(2) NOT NULL,
-    age NUMBER(3) NOT NULL,
-    CONSTRAINT fk_passenger_account FOREIGN KEY (account_id) REFERENCES Account(account_id),
-    CONSTRAINT fk_passenger_usertype FOREIGN KEY (user_type_id) REFERENCES User_type(user_type_id)
+-- Account
+CREATE TABLE Account (
+    account_id NUMBER(5) PRIMARY KEY,
+    user_type_id NUMBER(2),
+    age NUMBER(3),
+    role VARCHAR2(15) NOT NULL,
+    first_name VARCHAR2(25) NOT NULL,
+    last_name VARCHAR2(25) NOT NULL,
+    created_at TIMESTAMP NOT NULL,
+    email VARCHAR2(30),
+    password VARCHAR2(45) UNIQUE NOT NULL,
+    CONSTRAINT fk_account_usertype FOREIGN KEY (user_type_id) REFERENCES User_type(user_type_id)
 );
 
 -- Operator
@@ -35,7 +28,7 @@ CREATE TABLE Operator (
         CHECK (operator_name IN ('BMTA','TSB','MRT','BTS','SRT', 'ARL')),
     mode VARCHAR2(10) UNIQUE NOT NULL
         CHECK (mode_name IN ('Bus','Train')),
-    contact_email VARCHAR2(30) NOT NULL,
+    contact_email VARCHAR2(30),
     contact_phone VARCHAR2(10) NOT NULL
 );
 
@@ -54,13 +47,13 @@ CREATE TABLE Line (
 CREATE TABLE Station_stop (
     stop_id VARCHAR2(10) PRIMARY KEY,
     line_id NUMBER(5) NOT NULL,
-    stop_name_th VARCHAR2(50) NOT NULL,
-    stop_name_en VARCHAR2(50) NOT NULL,
+    stop_name_th VARCHAR2(70) NOT NULL,
+    stop_name_en VARCHAR2(70) NOT NULL,
     sequence_no NUMBER(3) NOT NULL,
-    direction VARCHAR2(10) NOT NULL
-        CHECK (direction IN ('Inbound','Outbound')),
-    is_fare_point VARCHAR2(3) NOT NULL
-        CHECK (is_fare_point IN ('Yes','No')),
+    direction VARCHAR2(20) NOT NULL
+        CHECK (direction IN ('Inbound','Outbound', 'Clockwise', 'Counterclockwise')),
+    is_fare_point VARCHAR2(3)
+        CHECK (is_fare_point IN ('Yes','No', NULL)),
     CONSTRAINT fk_station_line FOREIGN KEY (line_id) REFERENCES Line(line_id)
 );
 
@@ -85,25 +78,19 @@ CREATE TABLE Interchange_stop (
 -- Vehicle
 CREATE TABLE Vehicle (
     vehicle_id NUMBER(5) PRIMARY KEY,
+    operator_id NUMBER(5) NOT NULL,
     line_id NUMBER(5) NOT NULL,
-    capacity NUMBER(5) NOT NULL,
-    current_lat NUMBER(10,7),
-    current_lon NUMBER(10,7),
-    last_update TIMESTAMP NOT NULL,
+    CONSTRAINT fk_vehicle_operator FOREIGN KEY (operator_id) REFERENCES Operator(operator_id),
     CONSTRAINT fk_vehicle_line FOREIGN KEY (line_id) REFERENCES Line(line_id)
 );
 
--- Stop_distance
-CREATE TABLE Stop_distance (
-    distance_id NUMBER(5) PRIMARY KEY,
-    line_id NUMBER(5) NOT NULL,
-    from_stop_id VARCHAR2(10) NOT NULL,
-    to_stop_id VARCHAR2(10) NOT NULL,
-    distance_km NUMBER(6,3) NOT NULL,
-    travel_time_min NUMBER(4) NOT NULL,
-    CONSTRAINT fk_stopdistance_line FOREIGN KEY (line_id) REFERENCES Line(line_id),
-    CONSTRAINT fk_stopdistance_from FOREIGN KEY (from_stop_id) REFERENCES Station_stop(stop_id),
-    CONSTRAINT fk_stopdistance_to FOREIGN KEY (to_stop_id) REFERENCES Station_stop(stop_id)
+-- Vehicle_stop
+CREATE TABLE Vehicle_stop (
+    vehicle_stop_id NUMBER(5) PRIMARY KEY,
+    vehicle_id NUMBER(5) NOT NULL,
+    stop_id VARCHAR2(10) NOT NULL,
+    CONSTRAINT fk_vehiclestop_vehicle FOREIGN KEY (vehicle_id) REFERENCES Vehicle(vehicle_id),
+    CONSTRAINT fk_vehiclestop_stop FOREIGN KEY (stop_id) REFERENCES Station_stop(stop_id)
 );
 
 -- Fare_rule
@@ -111,11 +98,13 @@ CREATE TABLE Fare_rule (
     fare_id NUMBER(5) PRIMARY KEY,
     line_id NUMBER(5) NOT NULL,
     user_type_id NUMBER(2) NOT NULL,
-    min_stops NUMBER(3) NOT NULL,
-    max_stops NUMBER(3) NOT NULL,
+    from_stop_id VARCHAR2(10) NOT NULL,
+    to_stop_id VARCHAR2(10) NOT NULL,
     price NUMBER(6,2) NOT NULL,
     CONSTRAINT fk_fare_line FOREIGN KEY (line_id) REFERENCES Line(line_id),
-    CONSTRAINT fk_fare_usertype FOREIGN KEY (user_type_id) REFERENCES User_type(user_type_id)
+    CONSTRAINT fk_fare_usertype FOREIGN KEY (user_type_id) REFERENCES User_type(user_type_id),
+    CONSTRAINT fk_fare_from FOREIGN KEY (from_stop_id) REFERENCES Station_stop(stop_id),
+    CONSTRAINT fk_fare_to FOREIGN KEY (to_stop_id) REFERENCES Station_stop(stop_id)
 );
 
 -- User_favorite_route
