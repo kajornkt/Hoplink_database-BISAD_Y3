@@ -1,12 +1,12 @@
 CREATE SEQUENCE line_id_seq
-START WITH 00000001
+START WITH 00001
 INCREMENT BY 1
-MAXVALUE 9999999;
+MAXVALUE 99999;
 -- line_id, operator_id, line_name_th, line_name_en, is_active
 
 INSERT INTO Line VALUES (1, 4, 'สายสีเขียวอ่อน', 'Light green line', 'Yes');
 INSERT INTO Line VALUES (2, 3, 'สายสีฟ้า', 'Blue line', 'Yes');
-INSERT INTO Line VALUES (3, 4, 'สายสีเหลือง', 'Yellow line', 'Yes');
+INSERT INTO Line VALUES (3, 3, 'สายสีเหลือง', 'Yellow line', 'Yes');
 INSERT INTO Line VALUES (4, 5, 'สายตะวันออก', 'Eastern line', 'Yes');
 INSERT INTO Line VALUES (5, 6, 'ARL', 'ARL', 'Yes');
 INSERT INTO Line VALUES (6, 2, '2-38', '2-38', 'Yes');
