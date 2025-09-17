@@ -1,7 +1,7 @@
 CREATE SEQUENCE account_id_seq
-START WITH 00000001
+START WITH 00001
 INCREMENT BY 1
-MAXVALUE 9999999;
+MAXVALUE 99999;
 -- Account_id, User_typr_id, Age, Role, First_name, Last_name, created_at, Email, password
 
 INSERT INTO Account VALUES (account_id_seq.nextval, NULL, NULL, 'Admin', 'Pattanapong', 'Chen', TIMESTAMP '2025-01-14 08:30:45', 'pattanapong.chen@hoplink.com', 'cde94dabeba1d6437a95a91dc7c0d5cc');
