@@ -4,22 +4,22 @@
 -- Light Green Line
 -- ==========================
 INSERT INTO station_stop VALUES ('E1.1.1', 1, 'ชิดลม', 'Chit Lom', 1, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('CEN.1.1', 1, 'สยาม', 'Siam', 2, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.1', 1, 'ราชเทวี', 'Ratchathewi', 3, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N2.1.2', 1, 'พญาไท', 'Phayathai', 4, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N3.1.3', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 5, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N4.1.4', 1, 'สนามเป้า', 'Sanam Pao', 6, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N5.1.5', 1, 'อารีย์', 'Ari', 7, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N6.1.6', 1, 'เสนาร่วม', 'Sena Ruam', 8, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N7.1.7', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N8.1.8', 1, 'หมอชิต', 'Mo Chit', 10, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N9.1.9', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 11, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N10.1.10', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 12, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N11.1.11', 1, 'รัชโยธิน', 'Ratchayothin', 13, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N12.1.12', 1, 'เสนานิคม', 'Sena Nikhom', 14, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N13.1.13', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 15, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N14.1.14', 1, 'กรมป่าไม้', 'Royal Forest Department', 16, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N15.1.15', 1, 'บางบัว', 'Bang Bua', 17, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('CEN.1.2', 1, 'สยาม', 'Siam', 2, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N1.1.3', 1, 'ราชเทวี', 'Ratchathewi', 3, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N2.1.4', 1, 'พญาไท', 'Phayathai', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N3.1.5', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N4.1.6', 1, 'สนามเป้า', 'Sanam Pao', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N5.1.7', 1, 'อารีย์', 'Ari', 7, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N6.1.8', 1, 'เสนาร่วม', 'Sena Ruam', 8, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N7.1.9', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N8.1.10', 1, 'หมอชิต', 'Mo Chit', 10, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N9.1.11', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 11, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N10.1.12', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 12, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N11.1.13', 1, 'รัชโยธิน', 'Ratchayothin', 13, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N12.1.17', 1, 'เสนานิคม', 'Sena Nikhom', 14, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N13.1.15', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 15, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N14.1.16', 1, 'กรมป่าไม้', 'Royal Forest Department', 16, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N15.1.17', 1, 'บางบัว', 'Bang Bua', 17, 'Inbound', NULL);
 
 INSERT INTO station_stop VALUES ('N15.2.1', 1, 'บางบัว', 'Bang Bua', 1, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N14.2.2', 1, 'กรมป่าไม้', 'Royal Forest Department', 2, 'Outbound', NULL);
@@ -36,8 +36,8 @@ INSERT INTO station_stop VALUES ('N4.2.12', 1, 'สนามเป้า', 'Sana
 INSERT INTO station_stop VALUES ('N3.2.13', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 13, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N2.2.14', 1, 'พญาไท', 'Phayathai', 14, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N1.2.15', 1, 'ราชเทวี', 'Ratchathewi', 15, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('CEN.2.1', 1, 'สยาม', 'Siam', 16, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('E1.2.1', 1, 'ชิดลม', 'Chit Lom', 17, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('CEN.2.16', 1, 'สยาม', 'Siam', 16, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('E1.2.17', 1, 'ชิดลม', 'Chit Lom', 17, 'Outbound', NULL);
 
 -- ==========================
 -- Blue Line
