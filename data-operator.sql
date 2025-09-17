@@ -1,7 +1,7 @@
 CREATE SEQUENCE operator_id_seq
-START WITH 00000001
+START WITH 00001
 INCREMENT BY 1
-MAXVALUE 9999999;
+MAXVALUE 99999;
 -- operator_id, mode_id, operator_name, contact_email, contact_phone
 
 INSERT INTO Operator VALUES (operator_id_seq.nextval, 'Bus', 'BMTA', 'contact1348@bmta.co.th', '022460339');
