@@ -1,7 +1,3 @@
-CREATE SEQUENCE stop_id_seq
-START WITH 00000001
-INCREMENT BY 1
-MAXVALUE 9999999;
 -- stop_id, line_id, stop_name_th, stop_name_en, sequence_no, direction, is_fare_point
 
 -- ==========================
@@ -10,38 +6,146 @@ MAXVALUE 9999999;
 INSERT INTO station_stop VALUES ('E1.1.1', 1, 'ชิดลม', 'Chit Lom', 1, 'Inbound', NULL);
 INSERT INTO station_stop VALUES ('CEN.1.1', 1, 'สยาม', 'Siam', 2, 'Inbound', NULL);
 INSERT INTO station_stop VALUES ('N1.1.1', 1, 'ราชเทวี', 'Ratchathewi', 3, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.2', 1, 'พญาไท', 'Phayathai', 4, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.3', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 5, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.4', 1, 'สนามเป้า', 'Sanam Pao', 6, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.5', 1, 'อารีย์', 'Ari', 7, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.6', 1, 'เสนาร่วม', 'Sena Ruam', 8, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.7', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.8', 1, 'หมอชิต', 'Mo Chit', 10, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.9', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 11, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.10', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 12, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.11', 1, 'รัชโยธิน', 'Ratchayothin', 13, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.12', 1, 'เสนานิคม', 'Sena Nikhom', 14, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.13', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 15, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.14', 1, 'กรมป่าไม้', 'Royal Forest Department', 16, 'Inbound', NULL);
-INSERT INTO station_stop VALUES ('N1.1.15', 1, 'บางบัว', 'Bang Bua', 17, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N2.1.2', 1, 'พญาไท', 'Phayathai', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N3.1.3', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N4.1.4', 1, 'สนามเป้า', 'Sanam Pao', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N5.1.5', 1, 'อารีย์', 'Ari', 7, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N6.1.6', 1, 'เสนาร่วม', 'Sena Ruam', 8, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N7.1.7', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N8.1.8', 1, 'หมอชิต', 'Mo Chit', 10, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N9.1.9', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 11, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N10.1.10', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 12, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N11.1.11', 1, 'รัชโยธิน', 'Ratchayothin', 13, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N12.1.12', 1, 'เสนานิคม', 'Sena Nikhom', 14, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N13.1.13', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 15, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N14.1.14', 1, 'กรมป่าไม้', 'Royal Forest Department', 16, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('N15.1.15', 1, 'บางบัว', 'Bang Bua', 17, 'Inbound', NULL);
 
-INSERT INTO station_stop VALUES ('N1.2.1', 1, 'บางบัว', 'Bang Bua', 1, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.2', 1, 'กรมป่าไม้', 'Royal Forest Department', 2, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.3', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 3, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.4', 1, 'เสนานิคม', 'Sena Nikhom', 4, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.5', 1, 'รัชโยธิน', 'Ratchayothin', 5, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.6', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 6, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.7', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 7, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.8', 1, 'หมอชิต', 'Mo Chit', 8, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.9', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.10', 1, 'เสนาร่วม', 'Sena Ruam', 10, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.11', 1, 'อารีย์', 'Ari', 11, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.12', 1, 'สนามเป้า', 'Sanam Pao', 12, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.13', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 13, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N1.2.14', 1, 'พญาไท', 'Phayathai', 14, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N15.2.1', 1, 'บางบัว', 'Bang Bua', 1, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N14.2.2', 1, 'กรมป่าไม้', 'Royal Forest Department', 2, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N13.2.3', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 3, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N12.2.4', 1, 'เสนานิคม', 'Sena Nikhom', 4, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N11.2.5', 1, 'รัชโยธิน', 'Ratchayothin', 5, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N19.2.6', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N9.2.7', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 7, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N8.2.8', 1, 'หมอชิต', 'Mo Chit', 8, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N7.2.9', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N6.2.10', 1, 'เสนาร่วม', 'Sena Ruam', 10, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N5.2.11', 1, 'อารีย์', 'Ari', 11, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N4.2.12', 1, 'สนามเป้า', 'Sanam Pao', 12, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N3.2.13', 1, 'อนุสาวรีย์ชัยสมรภูมิ', 'Victory Monument', 13, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N2.2.14', 1, 'พญาไท', 'Phayathai', 14, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N1.2.15', 1, 'ราชเทวี', 'Ratchathewi', 15, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('CEN.2.1', 1, 'สยาม', 'Siam', 16, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('E1.2.1', 1, 'ชิดลม', 'Chit Lom', 17, 'Outbound', NULL);
+
+-- ==========================
+-- Blue Line
+-- ==========================
+INSERT INTO station_stop VALUES ('BL13.1.1', 2, 'สวนจตุจักร', 'Chatuchak Park', 1, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL14.1.2', 2, 'พหลโยธิน', 'Phahon Yothin', 2, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL15.1.3', 2, 'ลาดพร้าว', 'Lat Phrao', 3, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL16.1.4', 2, 'รัชดาภิเษก', 'Ratchadaphisek', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL17.1.5', 2, 'สุทธิสาร', 'Sutthisan', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL18.1.6', 2, 'ห้วยขวาง', 'Huai Khwang', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL19.1.7', 2, 'ศูนย์วัฒนธรรมแห่งประเทศไทย', 'Thailand Culture Centre', 7, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL20.1.8', 2, 'พระราม 9', 'Phra Ram 9', 8, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('BL21.1.9', 2, 'เพชรบุรี', 'Phetchaburi', 9, 'Inbound', NULL);
+
+INSERT INTO station_stop VALUES ('BL21.2.1', 2, 'เพชรบุรี', 'Phetchaburi', 1, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL20.2.2', 2, 'พระราม 9', 'Phra Ram 9', 2, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL19.2.3', 2, 'ศูนย์วัฒนธรรมแห่งประเทศไทย', 'Thailand Culture Centre', 3, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL18.2.4', 2, 'ห้วยขวาง', 'Huai Khwang', 4, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL17.2.5', 2, 'สุทธิสาร', 'Sutthisan', 5, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL16.2.6', 2, 'รัชดาภิเษก', 'Ratchadaphisek', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL15.2.7', 2, 'ลาดพร้าว', 'Lat Phrao', 7, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL14.2.8', 2, 'พหลโยธิน', 'Phahon Yothin', 8, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('BL13.2.9', 2, 'สวนจตุจักร', 'Chatuchak Park', 9, 'Outbound', NULL);
+
+-- ==========================
+-- Yellow Line
+-- ==========================
+INSERT INTO station_stop VALUES ('YL01.1.1', 3, 'ลาดพร้าว', 'Lat Phrao', 1, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL02.1.2', 3, 'ภาวนา', 'Phawana', 2, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL03.1.3', 3, 'โชคชัย 4', 'Chok Chai 4', 3, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL04.1.4', 3, 'ลาดพร้าว 71', 'Lat Phrao 71', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL05.1.5', 3, 'ลาดพร้าว 83', 'Lat Phrao 83', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL06.1.6', 3, 'มหาดไทย', 'Mahat Thai', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL07.1.7', 3, 'ลาดพร้าว 101', 'Lat Phrao 101', 7, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL08.1.8', 3, 'บางกะปิ', 'Bang Kapi', 8, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL09.1.9', 3, 'แยกลำสาลี', 'Yaek Lam Sali', 9, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL10.1.10', 3, 'ศรีกรีฑา', 'Si Kritha', 10, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL11.1.11', 3, 'หัวหมาก', 'Hua Mak', 11, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL12.1.12', 3, 'กลันตัน', 'Kalantan', 12, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL13.1.13', 3, 'ศรีนุช', 'Si Nut', 13, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL14.1.14', 3, 'ศรีนครินทร์ 38', 'Srinagarindra 38', 14, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL15.1.15', 3, 'สวนหลวง ร.9', 'Suan Luang Rama IX', 15, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('YL16.1.16', 3, 'ศรีอุดม', 'Si Udom', 16, 'Inbound', NULL);
+
+INSERT INTO station_stop VALUES ('YL16.2.1', 3, 'ศรีอุดม', 'Si Udom', 1, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL15.2.2', 3, 'สวนหลวง ร.9', 'Suan Luang Rama IX', 2, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL14.2.3', 3, 'ศรีนครินทร์ 38', 'Srinagarindra 38', 3, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL13.2.4', 3, 'ศรีนุช', 'Si Nut', 4, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL12.2.5', 3, 'กลันตัน', 'Kalantan', 5, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL11.2.6', 3, 'หัวหมาก', 'Hua Mak', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL10.2.7', 3, 'ศรีกรีฑา', 'Si Kritha', 7, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL09.2.8', 3, 'แยกลำสาลี', 'Yaek Lam Sali', 8, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL08.2.9', 3, 'บางกะปิ', 'Bang Kapi', 9, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL07.2.10', 3, 'ลาดพร้าว 101', 'Lat Phrao 101', 10, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL06.2.11', 3, 'มหาดไทย', 'Mahat Thai', 11, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL05.2.12', 3, 'ลาดพร้าว 83', 'Lat Phrao 83', 12, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL04.2.13', 3, 'ลาดพร้าว 71', 'Lat Phrao 71', 13, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL03.2.14', 3, 'โชคชัย 4', 'Chok Chai 4', 14, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL02.2.15', 3, 'ภาวนา', 'Phawana', 15, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('YL01.2.16', 3, 'ลาดพร้าว', 'Lat Phrao', 16, 'Outbound', NULL);
+
+-- ==========================
+-- SRT Line
+-- ==========================
+INSERT INTO station_stop VALUES ('SRT6.1.1', 4, 'อโศก', 'Asoke', 1, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT4.1.2', 4, 'พญาไท', 'Phayathai', 2, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT5.1.3', 4, 'มักกะสัน', 'Makkasan', 3, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT9.1.4', 4, 'หัวหมาก', 'Hua Mak', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT8.1.5', 4, 'สุขุมวิท 71', 'Sukhumvit 71', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT7.1.6', 4, 'คลองตัน', 'Khlong Tan', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT10.1.7', 4, 'บ้านทับช้าง', 'Ban Thap Chang', 7, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT15.1.8', 4, 'คลองหลวงแพ่ง', 'Khlong Luang Phaeng', 8, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT14.1.9', 4, 'หัวตะเข้', 'Hua Takhe', 9, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT13.1.10', 4, 'พระจอมเกล้า', 'Phra Chom Klao', 10, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT12.1.11', 4, 'ลาดกระบัง', 'Lat Krabang', 11, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('SRT11.1.12', 4, 'ซอยวัดลานบุญ', 'Soi Wat Lan Bun', 12, 'Inbound', NULL);
+
+INSERT INTO station_stop VALUES ('SRT11.2.1', 4, 'ซอยวัดลานบุญ', 'Soi Wat Lan Bun', 1, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT12.2.2', 4, 'ลาดกระบัง', 'Lat Krabang', 2, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT13.2.3', 4, 'พระจอมเกล้า', 'Phra Chom Klao', 3, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT14.2.4', 4, 'หัวตะเข้', 'Hua Takhe', 4, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT15.2.5', 4, 'คลองหลวงแพ่ง', 'Khlong Luang Phaeng', 5, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT10.2.6', 4, 'บ้านทับช้าง', 'Ban Thap Chang', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT7.2.7', 4, 'คลองตัน', 'Khlong Tan', 7, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT8.2.8', 4, 'สุขุมวิท 71', 'Sukhumvit 71', 8, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT9.2.9', 4, 'หัวหมาก', 'Hua Mak', 9, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT5.2.10', 4, 'มักกะสัน', 'Makkasan', 10, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT4.2.11', 4, 'พญาไท', 'Phayathai', 11, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('SRT6.2.12', 4, 'อโศก', 'Asoke', 12, 'Outbound', NULL);
+
+-- ==========================
+-- ARL Line
+-- ==========================
+INSERT INTO station_stop VALUES ('A8.1.1', 5, 'พญาไท', 'Phayathai', 1, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A7.1.2', 5, 'ราชปรารภ', 'Ratchprarop', 2, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A6.1.3', 5, 'มักกะสัน', 'Makkasan', 3, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A5.1.4', 5, 'รามคำแหง', 'Ramkhamhaeng', 4, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A4.1.5', 5, 'หัวหมาก', 'Hua Mak', 5, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A3.1.6', 5, 'บ้านทับช้าง', 'Ban Thap Chang', 6, 'Inbound', NULL);
+INSERT INTO station_stop VALUES ('A2.1.7', 5, 'ลาดกระบัง', 'Lat Krabang', 7, 'Inbound', NULL);
+
+INSERT INTO station_stop VALUES ('A2.2.1', 5, 'ลาดกระบัง', 'Lat Krabang', 1, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A3.2.2', 5, 'บ้านทับช้าง', 'Ban Thap Chang', 2, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A4.2.3', 5, 'หัวหมาก', 'Hua Mak', 3, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A5.2.4', 5, 'รามคำแหง', 'Ramkhamhaeng', 4, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A6.2.5', 5, 'มักกะสัน', 'Makkasan', 5, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A7.2.6', 5, 'ราชปรารภ', 'Ratchprarop', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('A8.2.7', 5, 'พญาไท', 'Phayathai', 7, 'Outbound', NULL);
 
 -- ==========================
 -- 2-38 Line
