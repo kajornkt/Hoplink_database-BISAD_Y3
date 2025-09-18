@@ -383,9 +383,9 @@ INSERT INTO station_stop VALUES ('2-53.1.15', 8, 'สวนรถไฟ', 'Rot F
 INSERT INTO station_stop VALUES ('2-53.1.16', 8, 'สำนักงานใหญ่ ปตท.', 'PTT Headquarter', 16, 'Clockwise', 'Yes');
 INSERT INTO station_stop VALUES ('2-53.1.17', 8, 'ซอยวิภาวดีรังสิต 13', 'Vibhavadi Rangsit 13 Allay', 17, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.18', 8, 'ตรงข้ามตรีเพชรอีซูซุ', 'Opposite Tri Petch Isuzu', 18, 'Clockwise', 'No');
-INSERT INTO station_stop VALUES ('2-53.1.19', 8, 'ตรงข้าม SCB Park Plaza', 'Opposite SCB Park Plaza', 19, 'Clockwise', 'No');
+INSERT INTO station_stop VALUES ('2-53.1.19', 8, 'ตรงข้ามเอสซีบี ปาร์ค พลาซ่า', 'Opposite SCB Park Plaza', 19, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.20', 8, 'แยกรัชโยธิน', 'Ratchayothin Intersection', 20, 'Clockwise', 'Yes');
-INSERT INTO station_stop VALUES ('2-53.1.21', 8, 'ซอยรัชดาภิเษก 42', 'Ratchadaphisek 42 Allay', 21, 'Clockwise', 'No');
+INSERT INTO station_stop VALUES ('2-53.1.21', 8, 'ซอยรัชดาภิเษก 42', 'Ratchadaphisek 42 Allay', 21, 'Clockwise', 'No'); 
 INSERT INTO station_stop VALUES ('2-53.1.22', 8, 'ซอยเสือใหญ่', 'Suea Yai Allay', 22, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.23', 8, 'มหาวิทยาลัยราชภัฏจันทรเกษม', 'Chandrakasem Rajabhat University', 23, 'Clockwise', 'Yes');
 INSERT INTO station_stop VALUES ('2-53.1.24', 8, 'สำนักงาน คปภ.', 'Office Of Insurance Commission', 24, 'Clockwise', 'No');
@@ -394,8 +394,8 @@ INSERT INTO station_stop VALUES ('2-53.1.26', 8, 'อาคารโอลิม
 INSERT INTO station_stop VALUES ('2-53.1.27', 8, 'ตรงข้ามโรงเรียนปัญจทรัพย์', 'Opposite Panchasap School', 27, 'Clockwise', 'Yes');
 INSERT INTO station_stop VALUES ('2-53.1.28', 8, 'บุญถาวร รัชดาภิเษก (ขาเข้า)', 'Boonthavorn Ratchadaphisek (Inbound)', 28, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.29', 8, 'ปรีชา คอมเพล็กซ์', 'Preecha Complex', 29, 'Clockwise', 'No');
-INSERT INTO station_stop VALUES ('2-53.1.30', 8, 'อาคารเมืองไทย-ภัทร', 'Muang Thai-Phat Building', 30, 'Clockwise', 'Yes');
-INSERT INTO station_stop VALUES ('2-53.1.31', 8, 'ตรงข้ามโรงเรียนเตรียมอุดมศึกษาน้อมเกล้า กนุนที', 'Opposite Triam Udom Suksa Nomklao (Kunnatee School)', 31, 'Clockwise', 'No');
+INSERT INTO station_stop VALUES ('2-53.1.30', 8, 'อาคารเมืองไทย-ภัทร', 'Muang Thai-Phat Building', 30, 'Clockwise', 'NO');
+INSERT INTO station_stop VALUES ('2-53.1.31', 8, 'ตรงข้ามโรงเรียนเตรียมอุดมศึกษาน้อมเกล้า กนุนที', 'Opposite Triam Udom Suksa Nomklao (Kunnatee School)', 31, 'Clockwise', 'Yes');
 INSERT INTO station_stop VALUES ('2-53.1.32', 8, 'MRT ห้วยขวาง (ทางออก 1)', 'MRT Huai Khwang (Exit 1)', 32, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.33', 8, 'โรงแรมสวิสโซเทล กรุงเทพฯ รัชดา', 'Swissotel Bangkok Ratchada', 33, 'Clockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.1.34', 8, 'โรงเรียนเตรียมอุดมศึกษาพัฒนาการ รัชดา', 'Triam Udom Suksa Pattanakarn Ratchada School', 34, 'Clockwise', 'No');
@@ -439,7 +439,7 @@ INSERT INTO station_stop VALUES ('2-53.2.24', 8, 'ซอยเสือใหญ
 INSERT INTO station_stop VALUES ('2-53.2.25', 8, 'ตรงข้ามโรงเรียนสุวรรณศึกษา', 'Opposite Suan Yai', 25, 'Counterclockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.2.26', 8, 'ตรงข้ามซอยรัชดาภิเษก 42', 'Opposite Ratchadaphisek 42 Alley', 26, 'Counterclockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.2.27', 8, 'สถานีดำารวจพหลโยธิน', 'Phahon Yothin Police Station', 27, 'Counterclockwise', 'No');
-INSERT INTO station_stop VALUES ('2-53.2.28', 8, 'เอสซีบี ปาร์ค พลาซ่า', 'Scb Park Plaza', 28, 'Counterclockwise', 'No');
+INSERT INTO station_stop VALUES ('2-53.2.28', 8, 'เอสซีบี ปาร์ค พลาซ่า', 'SCB Park Plaza', 28, 'Counterclockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.2.29', 8, 'ตรีเพชรอีซูซุ', 'Tri Petch Isuzu', 29, 'Counterclockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.2.30', 8, 'โรงเรียนหอวัง', 'Horwang School', 30, 'Counterclockwise', 'No');
 INSERT INTO station_stop VALUES ('2-53.2.31', 8, 'ธนาคารทหารไทยธนชาต สำนักงานใหญ่', 'Ttb Headquarter', 31, 'Counterclockwise', 'No');
@@ -536,14 +536,14 @@ INSERT INTO Station_stop VALUES ('12.2.24', 9, 'พระราชวังพ�
 INSERT INTO Station_stop VALUES ('12.2.25', 9, 'ตรงข้ามโรงพยาบาลเด็ก', 'Opposite Children Hospital', 25, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.26', 9, 'อนุสาวรีย์ชัยสมรภูมิ (เกาะดินแดง)', 'Victory Monument (Din Daeng)', 26, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.27', 9, 'ตรงข้ามสวนสันติภาพ', 'Opposite Santiphap Park', 27, 'Outbound', 'No');
-INSERT INTO Station_stop VALUES ('12.2.28', 9, 'สำนักงาน ป.ป.ส.', 'Oncb Office', 28, 'Outbound', 'No');
+INSERT INTO Station_stop VALUES ('12.2.28', 9, 'สำนักงาน ป.ป.ส.', 'ONCB Office', 28, 'Outbound', 'Yes');
 INSERT INTO Station_stop VALUES ('12.2.29', 9, 'โรงเรียนพิบูลประชาสรรค์', 'Piboon Prachasan School', 29, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.30', 9, 'สถาบันราชานุกูล', 'Rajanukul Institute', 30, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.31', 9, 'แยกประชาสงเคราะห์', 'Pracha Songkhro Intersection', 31, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.32', 9, 'ประชาสงเคราะห์ 1', 'Pracha Songkhro 1', 32, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.33', 9, 'สำนักงานเขตดินแดง', 'Dindaeng Housing Office', 33, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.34', 9, 'ตลาดดินแดง', 'Dindaeng Market', 34, 'Outbound', 'No');
-INSERT INTO Station_stop VALUES ('12.2.35', 9, 'โรงเรียนวิชูติทย์', 'Wichutit School', 35, 'Outbound', 'No');
+INSERT INTO Station_stop VALUES ('12.2.35', 9, 'โรงเรียนวิชูทิตย์', 'Wichutit School', 35, 'Outbound', 'Yes');
 INSERT INTO Station_stop VALUES ('12.2.36', 9, 'ศูนย์บริการสาธารณสุข 4', 'Health Center 4', 36, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.37', 9, 'ตรงข้ามโรงเรียนพร้อมพรรณวิทยา', 'Opposite Promphanwittaya School', 37, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('12.2.38', 9, 'ซอยประชาสงเคราะห์ 21', 'Pracha Songkhro 21', 38, 'Outbound', 'No');
