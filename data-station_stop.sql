@@ -26,7 +26,7 @@ INSERT INTO station_stop VALUES ('N14.2.2', 1, 'กรมป่าไม้', 'R
 INSERT INTO station_stop VALUES ('N13.2.3', 1, 'มหาวิทยาลัยเกษตรศาสตร์', 'Kasetsart University', 3, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N12.2.4', 1, 'เสนานิคม', 'Sena Nikhom', 4, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N11.2.5', 1, 'รัชโยธิน', 'Ratchayothin', 5, 'Outbound', NULL);
-INSERT INTO station_stop VALUES ('N19.2.6', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 6, 'Outbound', NULL);
+INSERT INTO station_stop VALUES ('N10.2.6', 1, 'พหลโยธิน 24', 'Phahon Yothin 24', 6, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N9.2.7', 1, 'ห้าแยกลาดพร้าว', 'Ha Yaek Lat Phrao', 7, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N8.2.8', 1, 'หมอชิต', 'Mo Chit', 8, 'Outbound', NULL);
 INSERT INTO station_stop VALUES ('N7.2.9', 1, 'สะพานควาย', 'Saphan Khwai', 9, 'Outbound', NULL);
