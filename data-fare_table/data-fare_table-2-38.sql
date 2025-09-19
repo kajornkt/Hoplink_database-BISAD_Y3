@@ -1,3 +1,12 @@
+CREATE SEQUENCE fare_table_id_seq
+START WITH 00001
+INCREMENT BY 1
+MAXVALUE 99999;
+-- Fare_id , Line_id, User_type_id, From_stop_id, To_stop_id, Distance_km, Price
+
+-- ==========================
+-- 2-38 Line (Student)
+-- ==========================
 INSERT INTO fare_table VALUES (nextval('fare_table_id_seq'), 6, 1, '2-38.1.1', '2-38.2.1', NULL, NULL);
 INSERT INTO fare_table VALUES (nextval('fare_table_id_seq'), 6, 1, '2-38.1.1', '2-38.1.2', NULL, NULL);
 INSERT INTO fare_table VALUES (nextval('fare_table_id_seq'), 6, 1, '2-38.1.1', '2-38.2.2', NULL, NULL);
