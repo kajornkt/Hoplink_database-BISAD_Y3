@@ -1,3 +1,4 @@
+-- Fare_id , Line_id, User_type_id, From_stop_id, To_stop_id, Distance_km, Price
 --- Line 2 Blue Line
 INSERT INTO fare_table VALUES (nextval('fare_id_seq'), 2, 1, 'BL13.1.1', 'BL21.2.1', 1, NULL);
 INSERT INTO fare_table VALUES (nextval('fare_id_seq'), 2, 1, 'BL13.1.1', 'BL14.1.2', 2, NULL);
