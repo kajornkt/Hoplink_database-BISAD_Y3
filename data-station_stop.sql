@@ -588,7 +588,7 @@ INSERT INTO Station_stop VALUES ('S5.1.27', 10, 'วัดกระทุ่ม�
 INSERT INTO Station_stop VALUES ('S5.1.28', 10, 'ซอยอ่อนนุช 67/3', 'On Nut 67/3 Alley', 28, 'Inbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.1.29', 10, 'หลังแยกอ่อนนุช-สุขาภิบาล 2', 'After Onnut-Sukhapiban 2 Junction', 29, 'Inbound', 'Yes');
 INSERT INTO Station_stop VALUES ('S5.1.30', 10, 'ตรงข้ามโรงพยาบาลสิรินธร', 'Opposite Sirindhorn Hospital', 30, 'Inbound', 'No');
-INSERT INTO Station_stop VALUES ('S5.1.31', 10, 'ตลาดนำ้-ชัย', 'Namchai Market', 31, 'Inbound', 'No');
+INSERT INTO Station_stop VALUES ('S5.1.31', 10, 'ตลาดน้ำ-ชัย', 'Namchai Market', 31, 'Inbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.1.32', 10, 'ตรงข้ามโรงเรียนประเวศพิทยาคาร', 'Opposite Prawet Pittayakhan School', 32, 'Inbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.1.33', 10, 'โรงเรียนพร้อม', 'Prom School', 33, 'Inbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.1.34', 10, 'วัดลานบุญ', 'Lan Bun Temple', 34, 'Inbound', 'No');
@@ -618,7 +618,7 @@ INSERT INTO Station_stop VALUES ('S5.2.13', 10, 'ตรงข้ามศูน�
 INSERT INTO Station_stop VALUES ('S5.2.14', 10, 'ตรงข้ามวัดลานบุญ', 'Opposite Lan Boon Temple', 14, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.2.15', 10, 'หมู่บ้านไทยสมุทร ลาดกระบัง', 'Thai Samut Lat Krabang Village', 15, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.2.16', 10, 'โรงเรียนประเวศพิทยาคาร', 'Prawet Pittayakarn School', 16, 'Outbound', 'No');
-INSERT INTO Station_stop VALUES ('S5.2.17', 10, 'ตรงข้ามตลาดนำ้-ชัย', 'Opposite Namchai Market', 17, 'Outbound', 'No');
+INSERT INTO Station_stop VALUES ('S5.2.17', 10, 'ตรงข้ามตลาดน้ำ-ชัย', 'Opposite Namchai Market', 17, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.2.18', 10, 'โรงพยาบาลสิรินธร', 'Sirindhorn Hospital', 18, 'Outbound', 'No');
 INSERT INTO Station_stop VALUES ('S5.2.19', 10, 'ก่อนแยกอ่อนนุช-สุขาภิบาล 2', 'Before Onnut-Sukhapiban 2 Junction', 19, 'Outbound', 'Yes');
 INSERT INTO Station_stop VALUES ('S5.2.20', 10, 'ซอยอ่อนนุช 88', 'On Nut 88 Alley', 20, 'Outbound', 'No');
