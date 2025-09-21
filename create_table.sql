@@ -141,8 +141,7 @@ CREATE TABLE Ticket (
     purchase_date TIMESTAMP NOT NULL,
     price NUMBER(6,2) NOT NULL,
     valid_until TIMESTAMP NOT NULL,
-    status VARCHAR2(10) NOT NULL
-        CHECK (status IN ('Active','Used','Expired','Cancelled')),
+    status VARCHAR2(10) CHECK (status IN ('Active','Used','Expired','Cancelled')),
     CONSTRAINT fk_ticket_passenger FOREIGN KEY (account_id) REFERENCES Account(account_id),
     CONSTRAINT fk_ticket_start FOREIGN KEY (start_stop_id) REFERENCES Station_stop(stop_id),
     CONSTRAINT fk_ticket_end FOREIGN KEY (end_stop_id) REFERENCES Station_stop(stop_id)
