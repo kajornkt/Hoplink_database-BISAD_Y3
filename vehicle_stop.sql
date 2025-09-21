@@ -1294,95 +1294,95 @@ INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 18, 'E1.2.17');
 -- ============================
 -- Vehicle 19, SRT
 -- ============================
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.7');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.8');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.9');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.10');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.11');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.1.12');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT6.1.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT4.1.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT5.1.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT9.1.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT8.1.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT7.1.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT10.1.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT15.1.8');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT14.1.9');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT13.1.10');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT12.1.11');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT11.1.12');
 
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.7');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.8');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.9');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.10');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.11');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT1.2.12');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT11.2.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT12.2.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT13.2.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT14.2.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT15.2.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT10.2.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT7.2.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT8.2.8');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT9.2.9');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT5.2.10');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT4.2.11');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 19, 'SRT6.2.12');
 
 -- ============================
 -- Vehicle 20, SRT
 -- ============================
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.7');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.8');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.9');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.10');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.11');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.1.12');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT6.1.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT4.1.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT5.1.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT9.1.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT8.1.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT7.1.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT10.1.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT15.1.8');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT14.1.9');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT13.1.10');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT12.1.11');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT11.1.12');
 
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.7');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.8');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.9');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.10');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.11');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT1.2.12');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT11.2.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT12.2.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT13.2.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT14.2.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT15.2.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT10.2.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT7.2.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT8.2.8');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT9.2.9');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT5.2.10');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT4.2.11');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 20, 'SRT6.2.12');
 
 -- ============================
 -- Vehicle 21, ARL
 -- ============================
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.1.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A8.1.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A7.1.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A6.1.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A5.1.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A4.1.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A3.1.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A2.1.7');
 
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'ARL1.2.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A2.2.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A3.2.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A4.2.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A5.2.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A6.2.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A7.2.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 21, 'A8.2.7');
 
 -- ============================
 -- Vehicle 22, ARL
 -- ============================
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.1.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A8.1.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A7.1.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A6.1.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A5.1.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A4.1.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A3.1.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A2.1.7');
 
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.1');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.2');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.3');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.4');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.5');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.6');
-INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'ARL1.2.7');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A2.2.1');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A3.2.2');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A4.2.3');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A5.2.4');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A6.2.5');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A7.2.6');
+INSERT INTO Vehicle_Stop VALUES (vehicle_stop_id_seq.nextval, 22, 'A8.2.7');

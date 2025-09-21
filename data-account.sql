@@ -9,7 +9,7 @@ INSERT INTO Account VALUES (account_id_seq.nextval, NULL, NULL, 'Admin', 'Pinkam
 INSERT INTO Account VALUES (account_id_seq.nextval, NULL, NULL, 'Admin', 'Bussaba', 'Wongwai', TIMESTAMP '2025-03-05 19:45:33', 'bussaba.ww@hoplink.com', '3e766b54a6f55ca4c143fc4e5e42c652');
 INSERT INTO Account VALUES (account_id_seq.nextval, 1, 16, 'User', 'Imteerasith', 'Kumnert', TIMESTAMP '2025-04-11 06:10:59', 'imteerasith.kn@gmail.com', '6c0fca308cacf9f204f17035c6e97c13');
 INSERT INTO Account VALUES (account_id_seq.nextval, 1, 20, 'User', 'Pimpitch', 'Chachin', TIMESTAMP '2025-05-25 23:59:59', 'pimpitch@gmail.com', '307ec8ecb101184ba2b084347af987fc');
-INSERT INTO Account VALUES (account_id_seq.nextval, 1, 40, 'User', 'Naphat', 'Junjam', TIMESTAMP '2025-06-30 12:15:05', 'naphat.junjam@gmail.com', '1cf0b57c6cf7da2753d3611202c4b547');
+INSERT INTO Account VALUES (account_id_seq.nextval, 2, 40, 'User', 'Naphat', 'Junjam', TIMESTAMP '2025-06-30 12:15:05', 'naphat.junjam@gmail.com', '1cf0b57c6cf7da2753d3611202c4b547');
 INSERT INTO Account VALUES (account_id_seq.nextval, 2, 35, 'User', 'Udomrat', 'Plainapa', TIMESTAMP '2025-07-18 09:05:47', 'udomrat.pnp@gmail.com', '1a06cccd3941e1fb0d2e8c9e67e71e9b');
 INSERT INTO Account VALUES (account_id_seq.nextval, 2, 24, 'User', 'Rakfah', 'Thaisong', TIMESTAMP '2025-08-22 14:44:21', 'rakfah.thaisong@gmail.com', '2aefa518b524cc07898db529aa64a3b2');
 INSERT INTO Account VALUES (account_id_seq.nextval, 2, 42, 'User', 'Kanokwan', 'Ongart', TIMESTAMP '2025-09-10 03:33:12', 'Kanokwan.oa@gmail.com', '2bb0e6d074398668a1847325d46e669e');
