@@ -10,7 +10,7 @@ CREATE TABLE User_type (
 CREATE TABLE Account (
     account_id NUMBER(5) PRIMARY KEY,
     user_type_id NUMBER(2),
-    age NUMBER(3),
+    birthday DATE,
     role VARCHAR2(15) NOT NULL,
     first_name VARCHAR2(25) NOT NULL,
     last_name VARCHAR2(25) NOT NULL,
